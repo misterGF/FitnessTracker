@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Fitness Summary</title>
+		<script src="Chart.min.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="fitness.ico" />
+
+		 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    	<script src="fitness.js"></script>
+
+	</head>
+	<body>
+		<div class="text-center higher" id="title"></div>
+
+		<div class="row">
+			<div class="col-xs-4 col-xs-offset-1">
+				<div class="panel panel-default">
+				  <div class="panel-heading text-center">Waist</div>
+				  <div class="panel-body">
+				    <canvas id="waist" class="thumbnail" width="350"></canvas>
+				    <div id="waist-status" class="bigIcon text-center"></div>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-xs-4 col-xs-offset-1">
+				<div class="panel panel-default">
+				  <div class="panel-heading text-center">Chest</div>
+				  <div class="panel-body">
+				    <canvas id="chest" class="thumbnail" width="350"></canvas>
+				    <div id="chest-status" class="bigIcon text-center"></div>
+				  </div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-4 col-xs-offset-1">
+				<div class="panel panel-default">
+				  <div class="panel-heading text-center">Biceps</div>
+				  <div class="panel-body">
+				    <canvas id="biceps" class="thumbnail" width="350"></canvas>
+				     <div id="biceps-status" class="bigIcon text-center"></div>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-xs-4 col-xs-offset-1">
+				<div class="panel panel-default">
+				  <div class="panel-heading text-center">Weight</div>
+				  <div class="panel-body">
+				    <canvas id="weight" class="thumbnail" width="350"></canvas>
+				     <div id="weight-status" class="bigIcon text-center"></div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
