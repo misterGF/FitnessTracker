@@ -9,8 +9,8 @@ modify to your liking!
 Demo of the [website](http://fitness.gferreira.me)
 
 ### Future Features
-*Add a modal to insert new numbers
-*Convert object to use indexDB
-*Add icon support for other browsers (webkit only right now)
+* Add a modal to insert new numbers
+* Convert object to use indexDB
+* Add icon support for other browsers (webkit only right now)
 
-*Font are free fonts found online. That includes the icons! Big thanks for captain icon! http://mariodelvalle.github.io/CaptainIconWeb/
+> Font are free fonts found online. That includes the icons! Big thanks for captain icon! http://mariodelvalle.github.io/CaptainIconWeb/
