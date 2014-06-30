@@ -5,17 +5,17 @@ myFitness.myName = "Gil";
 myFitness.labels = ["March","April","May","June","July","August"]; //6 month progress tracker
 
 myFitness.bellyGoal = 32;
-myFitness.bellyData = [36.5,35.25];
+myFitness.bellyData = [36.5,35.25,34.5];
 
 
 myFitness.chestGoal = 42;
-myFitness.chestData = [40,40.5];
+myFitness.chestData = [40,40.5,41.0];
 
 myFitness.bicepsGoal = 15;
-myFitness.bicepsData = [14,14.25];
+myFitness.bicepsData = [14,14.25,14.5];
 
 myFitness.weightGoal = 200;
-myFitness.weightData = [180,175];
+myFitness.weightData = [180,175, 178];
 
 myFitness.init = function()
 {
