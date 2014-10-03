@@ -2,20 +2,20 @@ var myFitness = [];
 
 //Configure your settings here.
 myFitness.myName = "Gil";
-myFitness.labels = ["March","April","May","June","July","August","September"]; //6 month progress tracker
+myFitness.labels = ["March","April","May","June","July","August","September", "October"]; //6 month progress tracker
 
 myFitness.bellyGoal = 32;
-myFitness.bellyData = [36.5,35.25,34.5,34.0,34.0];
+myFitness.bellyData = [36.5,35.25,34.5,34.0,34.0, 33.75];
 
 
 myFitness.chestGoal = 42;
-myFitness.chestData = [40,40.5,41.0,41.25,41.25];
+myFitness.chestData = [40,40.5,41.0,41.25,41.25, 41.75];
 
 myFitness.bicepsGoal = 15;
-myFitness.bicepsData = [14,14.25,14.5,14.5,14.5];
+myFitness.bicepsData = [14,14.25,14.5,14.5,14.5,14.75];
 
 myFitness.weightGoal = 200;
-myFitness.weightData = [180,175, 178,173,175];
+myFitness.weightData = [180,175, 178,173,175,178];
 
 myFitness.init = function()
 {
